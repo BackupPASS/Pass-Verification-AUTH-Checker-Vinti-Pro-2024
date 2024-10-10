@@ -65,19 +65,7 @@
             const authCode = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw6b';
             console.log(authCode); 
     
-    
-        // Function to redirect after a delay
-    function redirectAfterDelay() {
-        setTimeout(function() {
-            window.location.href = "https://backuppass.github.io/Vinti"; // Replace with your target URL
-        }, 500); // 500 milliseconds = 0.5 seconds
-    }
 
-    // Call the function on page load
-    document.addEventListener("DOMContentLoaded", redirectAfterDelay);
-      
-    
-        
     
      
     
